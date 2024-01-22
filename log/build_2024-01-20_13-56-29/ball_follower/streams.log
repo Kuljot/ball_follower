@@ -1,0 +1,28 @@
+[0.590s] Invoking command in '/home/kuljot/Project/ball_follower/build/ball_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/ball_follower
+[0.950s] -- The C compiler identification is GNU 11.4.0
+[1.199s] -- The CXX compiler identification is GNU 11.4.0
+[1.227s] -- Detecting C compiler ABI info
+[1.527s] -- Detecting C compiler ABI info - done
+[1.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.562s] -- Detecting C compile features
+[1.563s] -- Detecting C compile features - done
+[1.576s] -- Detecting CXX compiler ABI info
+[1.918s] -- Detecting CXX compiler ABI info - done
+[1.960s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.962s] -- Detecting CXX compile features
+[1.964s] -- Detecting CXX compile features - done
+[1.981s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.762s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.173s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.454s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[3.454s]   ament_package_xml() package name 'ball_follower' in '/package.xml' does not
+[3.455s]   match current PROJECT_NAME 'bot'.  You must call project() with the same
+[3.455s]   package name before.
+[3.455s] Call Stack (most recent call first):
+[3.456s]   /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.456s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[3.456s] 
+[3.457s] [0m
+[3.457s] -- Configuring incomplete, errors occurred!
+[3.457s] See also "/home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/CMakeOutput.log".
+[3.477s] Invoked command in '/home/kuljot/Project/ball_follower/build/ball_follower' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/ball_follower

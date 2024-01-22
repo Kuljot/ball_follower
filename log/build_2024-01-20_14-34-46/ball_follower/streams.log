@@ -1,0 +1,25 @@
+[0.526s] Invoking command in '/home/kuljot/Project/ball_follower/build/ball_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/ball_follower -- -j8 -l8
+[0.715s] [100%] Built target bot_node
+[0.759s] Invoked command in '/home/kuljot/Project/ball_follower/build/ball_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/ball_follower -- -j8 -l8
+[0.894s] Invoking command in '/home/kuljot/Project/ball_follower/build/ball_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kuljot/Project/ball_follower/build/ball_follower
+[0.921s] -- Install configuration: ""
+[0.923s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/lib/ball_follower/bot_node
+[0.923s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower//launch
+[0.924s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower//launch/launch_sim.launch.py
+[0.924s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower//launch/rsp.launch.py
+[0.924s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ament_index/resource_index/package_run_dependencies/ball_follower
+[0.925s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ament_index/resource_index/parent_prefix_path/ball_follower
+[0.925s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/ament_prefix_path.sh
+[0.926s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/ament_prefix_path.dsv
+[0.926s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/path.sh
+[0.926s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/path.dsv
+[0.927s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.bash
+[0.927s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.sh
+[0.927s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.zsh
+[0.928s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.dsv
+[0.928s] -- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.dsv
+[0.928s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ament_index/resource_index/packages/ball_follower
+[0.928s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/cmake/ball_followerConfig.cmake
+[0.929s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/cmake/ball_followerConfig-version.cmake
+[0.929s] -- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.xml
+[0.934s] Invoked command in '/home/kuljot/Project/ball_follower/build/ball_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kuljot/Project/ball_follower/build/ball_follower

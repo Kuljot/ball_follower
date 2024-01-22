@@ -1,0 +1,2 @@
+Invoking command in '/home/kuljot/Project/ball_follower/build/bot': /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/bot
+Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '1': /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/bot

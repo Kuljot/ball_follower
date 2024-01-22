@@ -1,0 +1,144 @@
+[12.824s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[12.824s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9f14b61060>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9f1507e260>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9f1507e260>>)
+[13.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[13.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[13.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[13.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[13.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[13.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[13.381s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kuljot/Project/ball_follower'
+[13.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[13.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[13.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[13.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[13.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[13.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[13.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[13.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[13.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[13.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[13.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[13.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[13.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[13.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[13.519s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[13.522s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[13.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[13.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[13.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[13.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[13.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[13.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[13.530s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[13.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[13.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[13.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[13.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[13.536s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[13.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[13.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[13.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[13.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[13.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[13.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[13.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[13.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[13.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[13.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extensions ['ignore', 'ignore_ament_install']
+[13.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extension 'ignore'
+[13.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extension 'ignore_ament_install'
+[13.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extensions ['colcon_pkg']
+[13.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extension 'colcon_pkg'
+[13.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extensions ['colcon_meta']
+[13.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extension 'colcon_meta'
+[13.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extensions ['ros']
+[13.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot) by extension 'ros'
+[13.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot' with type 'ros.ament_cmake' and name 'ball_follower'
+[13.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[13.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[13.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[13.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[13.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[14.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[14.748s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[14.984s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kuljot/Project/ball_follower/install/bot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[14.985s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/kuljot/Project/ball_follower/install/bot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[15.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kuljot/Project/ball_follower/install
+[15.438s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kuljot/Project/articubot_ws/install
+[15.621s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/iron
+[15.631s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[16.401s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'cmake_args' from command line to 'None'
+[16.402s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'cmake_target' from command line to 'None'
+[16.402s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[16.402s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[16.402s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'cmake_clean_first' from command line to 'False'
+[16.402s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'cmake_force_configure' from command line to 'False'
+[16.403s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'ament_cmake_args' from command line to 'None'
+[16.403s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[16.403s] Level 5:colcon.colcon_core.verb:set package 'ball_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[16.403s] DEBUG:colcon.colcon_core.verb:Building package 'ball_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kuljot/Project/ball_follower/build/ball_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kuljot/Project/ball_follower/install/ball_follower', 'merge_install': False, 'path': '/home/kuljot/Project/ball_follower/src/bot', 'symlink_install': False, 'test_result_base': None}
+[16.603s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[16.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[16.788s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kuljot/Project/ball_follower/src/bot' with build type 'ament_cmake'
+[16.789s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kuljot/Project/ball_follower/src/bot'
+[17.107s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[17.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kuljot/Project/ball_follower/build/ball_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/ball_follower -- -j8 -l8
+[18.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kuljot/Project/ball_follower/build/ball_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/ball_follower -- -j8 -l8
+[19.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kuljot/Project/ball_follower/build/ball_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kuljot/Project/ball_follower/build/ball_follower
+[19.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_follower)
+[19.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kuljot/Project/ball_follower/build/ball_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kuljot/Project/ball_follower/build/ball_follower
+[19.663s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower' for CMake module files
+[19.668s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower' for CMake config files
+[19.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_follower', 'cmake_prefix_path')
+[19.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/hook/cmake_prefix_path.ps1'
+[19.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/hook/cmake_prefix_path.dsv'
+[19.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/hook/cmake_prefix_path.sh'
+[19.935s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/lib'
+[19.937s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/bin'
+[19.937s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/lib/pkgconfig/ball_follower.pc'
+[19.939s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/lib/python3.10/site-packages'
+[19.940s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/bin'
+[20.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.ps1'
+[20.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.dsv'
+[20.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.sh'
+[20.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.bash'
+[20.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.zsh'
+[20.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kuljot/Project/ball_follower/install/ball_follower/share/colcon-core/packages/ball_follower)
+[20.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_follower)
+[21.073s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower' for CMake module files
+[21.076s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower' for CMake config files
+[21.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_follower', 'cmake_prefix_path')
+[21.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/hook/cmake_prefix_path.ps1'
+[21.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/hook/cmake_prefix_path.dsv'
+[21.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/hook/cmake_prefix_path.sh'
+[21.362s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/lib'
+[21.363s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/bin'
+[21.364s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/lib/pkgconfig/ball_follower.pc'
+[21.365s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/lib/python3.10/site-packages'
+[21.368s] Level 1:colcon.colcon_core.environment:checking '/home/kuljot/Project/ball_follower/install/ball_follower/bin'
+[21.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.ps1'
+[21.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.dsv'
+[21.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.sh'
+[21.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.bash'
+[21.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.zsh'
+[21.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kuljot/Project/ball_follower/install/ball_follower/share/colcon-core/packages/ball_follower)
+[21.640s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.647s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.948s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.024s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuljot/Project/ball_follower/install/local_setup.ps1'
+[22.298s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kuljot/Project/ball_follower/install/_local_setup_util_ps1.py'
+[22.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuljot/Project/ball_follower/install/setup.ps1'
+[22.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuljot/Project/ball_follower/install/local_setup.sh'
+[22.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kuljot/Project/ball_follower/install/_local_setup_util_sh.py'
+[22.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuljot/Project/ball_follower/install/setup.sh'
+[22.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuljot/Project/ball_follower/install/local_setup.bash'
+[22.743s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuljot/Project/ball_follower/install/setup.bash'
+[22.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuljot/Project/ball_follower/install/local_setup.zsh'
+[22.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuljot/Project/ball_follower/install/setup.zsh'

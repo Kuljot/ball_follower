@@ -1,0 +1,10 @@
+[0.528s] Invoking command in '/home/kuljot/Project/ball_follower/build/bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8
+[0.747s] [ 50%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/bot_node.cpp.o[0m
+[0.933s] [01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kament_index_cpp/get_package_share_directory.hpp: No such file or directory
+[0.934s]     6 | #include [01;31m[K"ament_index_cpp/get_package_share_directory.hpp"[m[K
+[0.934s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.935s] compilation terminated.
+[0.939s] gmake[2]: *** [CMakeFiles/bot_node.dir/build.make:76: CMakeFiles/bot_node.dir/src/bot_node.cpp.o] Error 1
+[0.940s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bot_node.dir/all] Error 2
+[0.941s] gmake: *** [Makefile:146: all] Error 2
+[0.948s] Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8

@@ -1,0 +1,57 @@
+[0.955s] Invoking command in '/home/kuljot/Project/ball_follower/build/bot': /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/bot
+[7.419s] -- The C compiler identification is GNU 11.4.0
+[10.558s] -- The CXX compiler identification is GNU 11.4.0
+[10.825s] -- Detecting C compiler ABI info
+[11.622s] -- Detecting C compiler ABI info - done
+[11.656s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.747s] -- Detecting C compile features
+[11.849s] -- Detecting C compile features - done
+[11.907s] -- Detecting CXX compiler ABI info
+[12.349s] -- Detecting CXX compiler ABI info - done
+[12.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.395s] -- Detecting CXX compile features
+[12.400s] -- Detecting CXX compile features - done
+[13.332s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[14.707s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[16.321s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[16.589s] Error parsing '/home/kuljot/Project/ball_follower/src/bot/package.xml':
+[18.101s] Traceback (most recent call last):
+[18.101s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[18.135s]     root = dom.parseString(data)
+[18.136s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[18.182s]     return expatbuilder.parseString(string)
+[18.182s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[18.220s]     return builder.parseString(string)
+[18.221s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[18.221s]     parser.Parse(string, True)
+[18.222s] xml.parsers.expat.ExpatError: mismatched tag: line 20, column 2
+[18.222s] 
+[18.223s] During handling of the above exception, another exception occurred:
+[18.223s] 
+[18.223s] Traceback (most recent call last):
+[18.224s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[18.224s]     main()
+[18.224s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[18.225s]     raise e
+[18.225s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[18.226s]     package = parse_package_string(
+[18.226s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[18.226s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[18.227s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kuljot/Project/ball_follower/src/bot/package.xml':
+[18.227s] The manifest contains invalid XML:
+[18.227s] mismatched tag: line 20, column 2
+[18.287s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[18.288s]   execute_process(/usr/bin/python3.10
+[18.288s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[18.289s]   /home/kuljot/Project/ball_follower/src/bot/package.xml
+[18.289s]   /home/kuljot/Project/ball_follower/build/bot/ament_cmake_core/package.cmake)
+[18.289s]   returned error code 1
+[18.290s] Call Stack (most recent call first):
+[18.290s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[18.290s]   /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[18.290s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[18.291s] 
+[18.291s] [0m
+[18.291s] -- Configuring incomplete, errors occurred!
+[18.292s] See also "/home/kuljot/Project/ball_follower/build/bot/CMakeFiles/CMakeOutput.log".
+[18.307s] Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '1': /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/bot

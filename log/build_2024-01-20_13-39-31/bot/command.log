@@ -1,0 +1,4 @@
+Invoking command in '/home/kuljot/Project/ball_follower/build/bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8
+Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8
+Invoking command in '/home/kuljot/Project/ball_follower/build/bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kuljot/Project/ball_follower/build/bot
+Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kuljot/Project/ball_follower/build/bot

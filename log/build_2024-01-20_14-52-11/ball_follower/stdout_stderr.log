@@ -1,0 +1,17 @@
+[100%] Built target bot_node
+-- Install configuration: ""
+-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/lib/ball_follower/bot_node
+-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/config
+-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description
+-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/robot_core.xacro
+-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/inertial_macros.xacro
+-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/robot.urdf.xacro
+-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch
+-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch/launch_sim.launch.py
+-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch/rsp.launch.py
+[31mCMake Error at cmake_install.cmake:62 (file):
+  file INSTALL cannot find
+  "/home/kuljot/Project/ball_follower/src/bot/worlds": No such file or
+  directory.
+
+[0m

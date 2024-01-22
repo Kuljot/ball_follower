@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/bot_node.cpp.o[0m
+[01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:15:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 | int main([01;35m[Kint argc[m[K, char** argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:15:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 | int main(int argc, [01;35m[Kchar** argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX executable bot_node[0m
+[100%] Built target bot_node
+-- Install configuration: ""
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/lib/bot/bot_node
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot//launch
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot//launch/launch_sim.launch.py
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot//launch/rsp.launch.py
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/ament_index/resource_index/package_run_dependencies/bot
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/ament_index/resource_index/parent_prefix_path/bot
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/environment/ament_prefix_path.sh
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/environment/ament_prefix_path.dsv
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/environment/path.sh
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/environment/path.dsv
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/local_setup.bash
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/local_setup.sh
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/local_setup.zsh
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/local_setup.dsv
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/package.dsv
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/ament_index/resource_index/packages/bot
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/cmake/botConfig.cmake
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/cmake/botConfig-version.cmake
+-- Installing: /home/kuljot/Project/ball_follower/install/bot/share/bot/package.xml

@@ -1,0 +1,20 @@
+[0.606s] Invoking command in '/home/kuljot/Project/ball_follower/build/bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8
+[0.823s] [ 50%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/bot_node.cpp.o[0m
+[2.435s] [01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.436s] [01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.436s]    22 |     return 0
+[2.436s]       |             [01;31m[K^[m[K
+[2.437s]       |             [32m[K;[m[K
+[2.437s]    23 | 
+[2.437s]    24 | [32m[K}[m[K
+[2.438s]       | [32m[K~[m[K            
+[2.469s] [01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:15:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.469s]    15 | int main([01;35m[Kint argc[m[K, char** argv)
+[2.470s]       |          [01;35m[K~~~~^~~~[m[K
+[2.470s] [01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:15:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.471s]    15 | int main(int argc, [01;35m[Kchar** argv[m[K)
+[2.471s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[2.616s] gmake[2]: *** [CMakeFiles/bot_node.dir/build.make:76: CMakeFiles/bot_node.dir/src/bot_node.cpp.o] Error 1
+[2.617s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bot_node.dir/all] Error 2
+[2.618s] gmake: *** [Makefile:146: all] Error 2
+[2.625s] Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8

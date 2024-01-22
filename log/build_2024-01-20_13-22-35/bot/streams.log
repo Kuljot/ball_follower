@@ -1,0 +1,10 @@
+[0.571s] Invoking command in '/home/kuljot/Project/ball_follower/build/bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8
+[0.773s] [ 50%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/bot_node.cpp.o[0m
+[0.978s] [01m[K/home/kuljot/Project/ball_follower/src/bot/src/bot_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/node_options.hpp: No such file or directory
+[0.979s]     7 | #include [01;31m[K"rclcpp/node_options.hpp"[m[K
+[0.980s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.980s] compilation terminated.
+[0.984s] gmake[2]: *** [CMakeFiles/bot_node.dir/build.make:76: CMakeFiles/bot_node.dir/src/bot_node.cpp.o] Error 1
+[0.985s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bot_node.dir/all] Error 2
+[0.985s] gmake: *** [Makefile:146: all] Error 2
+[0.993s] Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kuljot/Project/ball_follower/build/bot -- -j8 -l8

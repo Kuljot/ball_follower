@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.004927] (ball_follower) JobQueued: {'identifier': 'ball_follower', 'dependencies': OrderedDict()}
+[0.006092] (ball_follower) JobStarted: {'identifier': 'ball_follower'}
+[0.096875] (-) TimerEvent: {}
+[0.198796] (-) TimerEvent: {}
+[0.305724] (-) TimerEvent: {}
+[0.410321] (-) TimerEvent: {}
+[0.512779] (-) TimerEvent: {}
+[0.616981] (-) TimerEvent: {}
+[0.720134] (-) TimerEvent: {}
+[0.823110] (-) TimerEvent: {}
+[0.924600] (-) TimerEvent: {}
+[1.028400] (-) TimerEvent: {}
+[1.131039] (-) TimerEvent: {}
+[1.235073] (-) TimerEvent: {}
+[1.341659] (-) TimerEvent: {}
+[1.443889] (-) TimerEvent: {}
+[1.547046] (-) TimerEvent: {}
+[1.652559] (-) TimerEvent: {}
+[1.728579] (ball_follower) JobProgress: {'identifier': 'ball_follower', 'progress': 'cmake'}
+[1.735728] (ball_follower) JobProgress: {'identifier': 'ball_follower', 'progress': 'build'}
+[1.742132] (ball_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuljot/Project/ball_follower/build/ball_follower', '--', '-j8', '-l8'], 'cwd': '/home/kuljot/Project/ball_follower/build/ball_follower', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kuljot'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kuljot'), ('OLDPWD', '/home/kuljot'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1944'), ('SYSTEMD_EXEC_PID', '2132'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5221'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuljot/Project/ball_follower/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'kuljot'), ('JOURNAL_STREAM', '8:35494'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuljot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/kuljot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuljot-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/2095,unix/kuljot-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/2095'), ('INVOCATION_ID', '68b0f2f5cf914dfa8173ac39b1236fa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PGVXH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuljot/Project/ball_follower/install/ball_follower:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e16caf5e-1b12-48cd-ab24-2f5de3a66309'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuljot/Project/ball_follower/build/ball_follower'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuljot/Project/ball_follower/install/ball_follower:/opt/ros/iron')]), 'shell': False}
+[1.769861] (-) TimerEvent: {}
+[1.872009] (-) TimerEvent: {}
+[1.974955] (-) TimerEvent: {}
+[2.076636] (-) TimerEvent: {}
+[2.178727] (-) TimerEvent: {}
+[2.280776] (ball_follower) StdoutLine: {'line': b'[100%] Built target bot_node\n'}
+[2.281915] (-) TimerEvent: {}
+[2.376058] (ball_follower) CommandEnded: {'returncode': 0}
+[2.382591] (-) TimerEvent: {}
+[2.487085] (-) TimerEvent: {}
+[2.588262] (-) TimerEvent: {}
+[2.610175] (ball_follower) JobProgress: {'identifier': 'ball_follower', 'progress': 'install'}
+[2.688649] (-) TimerEvent: {}
+[2.707241] (ball_follower) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kuljot/Project/ball_follower/build/ball_follower'], 'cwd': '/home/kuljot/Project/ball_follower/build/ball_follower', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kuljot'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kuljot'), ('OLDPWD', '/home/kuljot'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1944'), ('SYSTEMD_EXEC_PID', '2132'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5221'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuljot/Project/ball_follower/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'kuljot'), ('JOURNAL_STREAM', '8:35494'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuljot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/kuljot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuljot-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/2095,unix/kuljot-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/2095'), ('INVOCATION_ID', '68b0f2f5cf914dfa8173ac39b1236fa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PGVXH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuljot/Project/ball_follower/install/ball_follower:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e16caf5e-1b12-48cd-ab24-2f5de3a66309'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuljot/Project/ball_follower/build/ball_follower'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuljot/Project/ball_follower/install/ball_follower:/opt/ros/iron')]), 'shell': False}
+[2.788958] (-) TimerEvent: {}
+[2.793642] (ball_follower) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.796879] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/lib/ball_follower/bot_node\n'}
+[2.798762] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/config\n'}
+[2.801256] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description\n'}
+[2.802592] (ball_follower) StdoutLine: {'line': b'-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/robot_core.xacro\n'}
+[2.804178] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/inertial_macros.xacro\n'}
+[2.809400] (ball_follower) StdoutLine: {'line': b'-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/visual_macros.xacro\n'}
+[2.812064] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/robot.urdf.xacro\n'}
+[2.814635] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch\n'}
+[2.815780] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch/launch_sim.launch.py\n'}
+[2.816634] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch/rsp.launch.py\n'}
+[2.817553] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/worlds\n'}
+[2.818590] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ament_index/resource_index/package_run_dependencies/ball_follower\n'}
+[2.821295] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ament_index/resource_index/parent_prefix_path/ball_follower\n'}
+[2.824948] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/ament_prefix_path.sh\n'}
+[2.828664] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/ament_prefix_path.dsv\n'}
+[2.832803] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/path.sh\n'}
+[2.835934] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/environment/path.dsv\n'}
+[2.844061] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.bash\n'}
+[2.846284] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.sh\n'}
+[2.849537] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.zsh\n'}
+[2.855856] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/local_setup.dsv\n'}
+[2.859392] (ball_follower) StdoutLine: {'line': b'-- Installing: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.dsv\n'}
+[2.866279] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ament_index/resource_index/packages/ball_follower\n'}
+[2.867752] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/cmake/ball_followerConfig.cmake\n'}
+[2.868600] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/cmake/ball_followerConfig-version.cmake\n'}
+[2.876717] (ball_follower) StdoutLine: {'line': b'-- Up-to-date: /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/package.xml\n'}
+[2.879194] (ball_follower) CommandEnded: {'returncode': 0}
+[2.890718] (-) TimerEvent: {}
+[2.994857] (-) TimerEvent: {}
+[3.096488] (-) TimerEvent: {}
+[3.197902] (-) TimerEvent: {}
+[3.300151] (-) TimerEvent: {}
+[3.403257] (-) TimerEvent: {}
+[3.506673] (-) TimerEvent: {}
+[3.611088] (-) TimerEvent: {}
+[3.720336] (-) TimerEvent: {}
+[3.830667] (-) TimerEvent: {}
+[3.936460] (-) TimerEvent: {}
+[4.038725] (-) TimerEvent: {}
+[4.141020] (-) TimerEvent: {}
+[4.243030] (-) TimerEvent: {}
+[4.344546] (-) TimerEvent: {}
+[4.446215] (-) TimerEvent: {}
+[4.548566] (-) TimerEvent: {}
+[4.651111] (-) TimerEvent: {}
+[4.754839] (-) TimerEvent: {}
+[4.858215] (-) TimerEvent: {}
+[4.959429] (-) TimerEvent: {}
+[5.061391] (-) TimerEvent: {}
+[5.229859] (-) TimerEvent: {}
+[5.334771] (-) TimerEvent: {}
+[5.440117] (-) TimerEvent: {}
+[5.544459] (-) TimerEvent: {}
+[5.646915] (-) TimerEvent: {}
+[5.751625] (-) TimerEvent: {}
+[5.855231] (-) TimerEvent: {}
+[5.957178] (-) TimerEvent: {}
+[6.060456] (-) TimerEvent: {}
+[6.162324] (-) TimerEvent: {}
+[6.269095] (-) TimerEvent: {}
+[6.294257] (ball_follower) JobEnded: {'identifier': 'ball_follower', 'rc': 0}
+[6.303181] (-) EventReactorShutdown: {}

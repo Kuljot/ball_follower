@@ -1,0 +1,44 @@
+[0.486s] Invoking command in '/home/kuljot/Project/ball_follower/build/bot': /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/bot
+[0.529s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.130s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.343s] Error parsing '/home/kuljot/Project/ball_follower/src/bot/package.xml':
+[1.519s] Traceback (most recent call last):
+[1.520s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.520s]     root = dom.parseString(data)
+[1.521s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.521s]     return expatbuilder.parseString(string)
+[1.522s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.523s]     return builder.parseString(string)
+[1.524s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.524s]     parser.Parse(string, True)
+[1.525s] xml.parsers.expat.ExpatError: mismatched tag: line 20, column 2
+[1.525s] 
+[1.526s] During handling of the above exception, another exception occurred:
+[1.526s] 
+[1.527s] Traceback (most recent call last):
+[1.527s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.528s]     main()
+[1.528s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.529s]     raise e
+[1.529s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.530s]     package = parse_package_string(
+[1.530s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.531s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.531s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kuljot/Project/ball_follower/src/bot/package.xml':
+[1.532s] The manifest contains invalid XML:
+[1.532s] mismatched tag: line 20, column 2
+[1.587s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.588s]   execute_process(/usr/bin/python3.10
+[1.588s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.589s]   /home/kuljot/Project/ball_follower/src/bot/package.xml
+[1.589s]   /home/kuljot/Project/ball_follower/build/bot/ament_cmake_core/package.cmake)
+[1.589s]   returned error code 1
+[1.589s] Call Stack (most recent call first):
+[1.590s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.590s]   /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.590s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[1.591s] 
+[1.591s] [0m
+[1.591s] -- Configuring incomplete, errors occurred!
+[1.592s] See also "/home/kuljot/Project/ball_follower/build/bot/CMakeFiles/CMakeOutput.log".
+[1.603s] Invoked command in '/home/kuljot/Project/ball_follower/build/bot' returned '1': /usr/bin/cmake /home/kuljot/Project/ball_follower/src/bot -DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/bot

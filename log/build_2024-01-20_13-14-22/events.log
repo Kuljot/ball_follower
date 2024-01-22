@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000507] (bot) JobQueued: {'identifier': 'bot', 'dependencies': OrderedDict()}
+[0.000667] (bot) JobStarted: {'identifier': 'bot'}
+[0.096507] (-) TimerEvent: {}
+[0.197230] (-) TimerEvent: {}
+[0.298166] (-) TimerEvent: {}
+[0.400649] (-) TimerEvent: {}
+[0.501963] (-) TimerEvent: {}
+[0.603764] (-) TimerEvent: {}
+[0.705597] (-) TimerEvent: {}
+[0.806804] (-) TimerEvent: {}
+[0.907604] (-) TimerEvent: {}
+[0.952055] (bot) JobProgress: {'identifier': 'bot', 'progress': 'cmake'}
+[0.953152] (bot) Command: {'cmd': ['/usr/bin/cmake', '/home/kuljot/Project/ball_follower/src/bot', '-DCMAKE_INSTALL_PREFIX=/home/kuljot/Project/ball_follower/install/bot'], 'cwd': '/home/kuljot/Project/ball_follower/build/bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kuljot'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kuljot'), ('OLDPWD', '/home/kuljot/Project/ball_follower/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2391'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuljot/Project/articubot_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'kuljot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuljot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/kuljot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuljot-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/2346,unix/kuljot-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/2346'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad3fcb6c_dbf8_47fc_9e2e_2fecbac140cb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y18XH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuljot/Project/articubot_ws/install/articubot_one:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuljot/Project/ball_follower/build/bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuljot/Project/articubot_ws/install/articubot_one')]), 'shell': False}
+[1.042901] (-) TimerEvent: {}
+[1.143675] (-) TimerEvent: {}
+[1.244419] (-) TimerEvent: {}
+[1.345552] (-) TimerEvent: {}
+[1.446299] (-) TimerEvent: {}
+[1.547046] (-) TimerEvent: {}
+[1.648178] (-) TimerEvent: {}
+[1.748910] (-) TimerEvent: {}
+[1.849636] (-) TimerEvent: {}
+[1.950602] (-) TimerEvent: {}
+[2.051366] (-) TimerEvent: {}
+[2.152076] (-) TimerEvent: {}
+[2.252989] (-) TimerEvent: {}
+[2.354225] (-) TimerEvent: {}
+[2.455255] (-) TimerEvent: {}
+[2.556128] (-) TimerEvent: {}
+[2.656935] (-) TimerEvent: {}
+[2.758032] (-) TimerEvent: {}
+[2.859277] (-) TimerEvent: {}
+[2.960145] (-) TimerEvent: {}
+[3.061233] (-) TimerEvent: {}
+[3.162469] (-) TimerEvent: {}
+[3.263488] (-) TimerEvent: {}
+[3.364417] (-) TimerEvent: {}
+[3.465147] (-) TimerEvent: {}
+[3.565885] (-) TimerEvent: {}
+[3.666691] (-) TimerEvent: {}
+[3.767530] (-) TimerEvent: {}
+[3.868413] (-) TimerEvent: {}
+[3.969364] (-) TimerEvent: {}
+[4.070778] (-) TimerEvent: {}
+[4.171616] (-) TimerEvent: {}
+[4.272413] (-) TimerEvent: {}
+[4.373261] (-) TimerEvent: {}
+[4.474495] (-) TimerEvent: {}
+[4.575744] (-) TimerEvent: {}
+[4.676669] (-) TimerEvent: {}
+[4.777559] (-) TimerEvent: {}
+[4.878708] (-) TimerEvent: {}
+[4.980042] (-) TimerEvent: {}
+[5.080973] (-) TimerEvent: {}
+[5.181883] (-) TimerEvent: {}
+[5.282710] (-) TimerEvent: {}
+[5.384034] (-) TimerEvent: {}
+[5.485288] (-) TimerEvent: {}
+[5.586638] (-) TimerEvent: {}
+[5.687541] (-) TimerEvent: {}
+[5.788447] (-) TimerEvent: {}
+[5.889389] (-) TimerEvent: {}
+[5.990625] (-) TimerEvent: {}
+[6.091944] (-) TimerEvent: {}
+[6.193071] (-) TimerEvent: {}
+[6.294299] (-) TimerEvent: {}
+[6.395688] (-) TimerEvent: {}
+[6.496586] (-) TimerEvent: {}
+[6.597756] (-) TimerEvent: {}
+[6.699151] (-) TimerEvent: {}
+[6.800481] (-) TimerEvent: {}
+[6.901694] (-) TimerEvent: {}
+[7.003046] (-) TimerEvent: {}
+[7.104031] (-) TimerEvent: {}
+[7.205044] (-) TimerEvent: {}
+[7.306429] (-) TimerEvent: {}
+[7.407439] (-) TimerEvent: {}
+[7.419284] (bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.508018] (-) TimerEvent: {}
+[7.608885] (-) TimerEvent: {}
+[7.710099] (-) TimerEvent: {}
+[7.810967] (-) TimerEvent: {}
+[7.911797] (-) TimerEvent: {}
+[8.012719] (-) TimerEvent: {}
+[8.113772] (-) TimerEvent: {}
+[8.214606] (-) TimerEvent: {}
+[8.315337] (-) TimerEvent: {}
+[8.416308] (-) TimerEvent: {}
+[8.517434] (-) TimerEvent: {}
+[8.618592] (-) TimerEvent: {}
+[8.719761] (-) TimerEvent: {}
+[8.821075] (-) TimerEvent: {}
+[8.922278] (-) TimerEvent: {}
+[9.023359] (-) TimerEvent: {}
+[9.124669] (-) TimerEvent: {}
+[9.225946] (-) TimerEvent: {}
+[9.327208] (-) TimerEvent: {}
+[9.428486] (-) TimerEvent: {}
+[9.529599] (-) TimerEvent: {}
+[9.630382] (-) TimerEvent: {}
+[9.731627] (-) TimerEvent: {}
+[9.832739] (-) TimerEvent: {}
+[9.933644] (-) TimerEvent: {}
+[10.034497] (-) TimerEvent: {}
+[10.135517] (-) TimerEvent: {}
+[10.236284] (-) TimerEvent: {}
+[10.337133] (-) TimerEvent: {}
+[10.438421] (-) TimerEvent: {}
+[10.539359] (-) TimerEvent: {}
+[10.557814] (bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[10.639713] (-) TimerEvent: {}
+[10.740586] (-) TimerEvent: {}
+[10.825530] (bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.840753] (-) TimerEvent: {}
+[10.941495] (-) TimerEvent: {}
+[11.042619] (-) TimerEvent: {}
+[11.143326] (-) TimerEvent: {}
+[11.244157] (-) TimerEvent: {}
+[11.344859] (-) TimerEvent: {}
+[11.445757] (-) TimerEvent: {}
+[11.546498] (-) TimerEvent: {}
+[11.622194] (bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.646682] (-) TimerEvent: {}
+[11.656777] (bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.746899] (bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.747559] (-) TimerEvent: {}
+[11.848404] (-) TimerEvent: {}
+[11.849264] (bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.906916] (bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.948613] (-) TimerEvent: {}
+[12.049738] (-) TimerEvent: {}
+[12.150534] (-) TimerEvent: {}
+[12.251305] (-) TimerEvent: {}
+[12.349142] (bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.351449] (-) TimerEvent: {}
+[12.394427] (bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.395634] (bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.400138] (bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.451754] (-) TimerEvent: {}
+[12.552576] (-) TimerEvent: {}
+[12.653819] (-) TimerEvent: {}
+[12.754953] (-) TimerEvent: {}
+[12.856235] (-) TimerEvent: {}
+[12.957503] (-) TimerEvent: {}
+[13.058508] (-) TimerEvent: {}
+[13.159780] (-) TimerEvent: {}
+[13.260909] (-) TimerEvent: {}
+[13.331736] (bot) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[13.361333] (-) TimerEvent: {}
+[13.462183] (-) TimerEvent: {}
+[13.563321] (-) TimerEvent: {}
+[13.664386] (-) TimerEvent: {}
+[13.765342] (-) TimerEvent: {}
+[13.866290] (-) TimerEvent: {}
+[13.966981] (-) TimerEvent: {}
+[14.067695] (-) TimerEvent: {}
+[14.168475] (-) TimerEvent: {}
+[14.269179] (-) TimerEvent: {}
+[14.370001] (-) TimerEvent: {}
+[14.470801] (-) TimerEvent: {}
+[14.571608] (-) TimerEvent: {}
+[14.672467] (-) TimerEvent: {}
+[14.707653] (bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[14.772709] (-) TimerEvent: {}
+[14.873582] (-) TimerEvent: {}
+[14.974415] (-) TimerEvent: {}
+[15.075645] (-) TimerEvent: {}
+[15.176610] (-) TimerEvent: {}
+[15.277777] (-) TimerEvent: {}
+[15.379003] (-) TimerEvent: {}
+[15.480279] (-) TimerEvent: {}
+[15.581312] (-) TimerEvent: {}
+[15.682362] (-) TimerEvent: {}
+[15.783315] (-) TimerEvent: {}
+[15.884136] (-) TimerEvent: {}
+[15.985021] (-) TimerEvent: {}
+[16.085978] (-) TimerEvent: {}
+[16.187265] (-) TimerEvent: {}
+[16.288050] (-) TimerEvent: {}
+[16.321425] (bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[16.388222] (-) TimerEvent: {}
+[16.488913] (-) TimerEvent: {}
+[16.586303] (bot) StderrLine: {'line': b"Error parsing '/home/kuljot/Project/ball_follower/src/bot/package.xml':\n"}
+[16.589550] (-) TimerEvent: {}
+[16.690540] (-) TimerEvent: {}
+[16.791521] (-) TimerEvent: {}
+[16.892534] (-) TimerEvent: {}
+[16.993264] (-) TimerEvent: {}
+[17.093965] (-) TimerEvent: {}
+[17.194655] (-) TimerEvent: {}
+[17.295660] (-) TimerEvent: {}
+[17.396470] (-) TimerEvent: {}
+[17.497519] (-) TimerEvent: {}
+[17.598280] (-) TimerEvent: {}
+[17.699452] (-) TimerEvent: {}
+[17.800335] (-) TimerEvent: {}
+[17.901049] (-) TimerEvent: {}
+[18.001781] (-) TimerEvent: {}
+[18.100965] (bot) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.101519] (bot) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[18.101895] (-) TimerEvent: {}
+[18.135232] (bot) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[18.136045] (bot) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[18.182145] (bot) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[18.182704] (bot) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[18.202571] (-) TimerEvent: {}
+[18.219570] (bot) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[18.221042] (bot) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[18.221541] (bot) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[18.222255] (bot) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 20, column 2\n'}
+[18.222763] (bot) StderrLine: {'line': b'\n'}
+[18.223139] (bot) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[18.223492] (bot) StderrLine: {'line': b'\n'}
+[18.223830] (bot) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.224269] (bot) StderrLine: {'line': b'  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[18.224617] (bot) StderrLine: {'line': b'    main()\n'}
+[18.224953] (bot) StderrLine: {'line': b'  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[18.225289] (bot) StderrLine: {'line': b'    raise e\n'}
+[18.225619] (bot) StderrLine: {'line': b'  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[18.226143] (bot) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[18.226498] (bot) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[18.226840] (bot) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[18.227182] (bot) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kuljot/Project/ball_follower/src/bot/package.xml':\n"}
+[18.227522] (bot) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[18.227902] (bot) StderrLine: {'line': b'mismatched tag: line 20, column 2\n'}
+[18.287254] (bot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[18.288246] (bot) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[18.288743] (bot) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[18.289241] (bot) StderrLine: {'line': b'  /home/kuljot/Project/ball_follower/src/bot/package.xml\n'}
+[18.289554] (bot) StderrLine: {'line': b'  /home/kuljot/Project/ball_follower/build/bot/ament_cmake_core/package.cmake)\n'}
+[18.289850] (bot) StderrLine: {'line': b'  returned error code 1\n'}
+[18.290139] (bot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[18.290429] (bot) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[18.290719] (bot) StderrLine: {'line': b'  /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[18.291004] (bot) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[18.291285] (bot) StderrLine: {'line': b'\n'}
+[18.291566] (bot) StderrLine: {'line': b'\x1b[0m\n'}
+[18.291901] (bot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[18.292245] (bot) StdoutLine: {'line': b'See also "/home/kuljot/Project/ball_follower/build/bot/CMakeFiles/CMakeOutput.log".\n'}
+[18.302794] (-) TimerEvent: {}
+[18.305705] (bot) CommandEnded: {'returncode': 1}
+[18.308531] (bot) JobEnded: {'identifier': 'bot', 'rc': 1}
+[18.319101] (-) EventReactorShutdown: {}
