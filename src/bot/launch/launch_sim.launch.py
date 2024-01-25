@@ -9,6 +9,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     package_name="ball_follower"
+    world_file="./src/bot/worlds/world3.py"
 
     # Add Robot State Publisher launch file 
     rsp= IncludeLaunchDescription(
@@ -16,7 +17,7 @@ def generate_launch_description():
             [
                 os.path.join(get_package_share_directory(package_name),'launch','rsp.launch.py')
             ]
-        ), launch_arguments={' use_sim_time':'true', ' use_ros2_control':'false'}.items()
+        ), launch_arguments={' use_sim_time':'true', ' use_ros2_control':'false', 'world':world_file}.items()
     )
 
     gazebo_params_file=os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
@@ -39,12 +40,11 @@ def generate_launch_description():
                                    '-entity', 'my_bot'],
                         output='screen')
 
-
-    # diff_drive_spawner = Node(
-    #     package="controller_manager",
-    #     executable="spawner",
-    #     arguments=["diff_cont"],
-    # )
+    #Custom c++ node to take the laser scan data from /laser_controller/out topic to /scan topic
+    laser_remapper = Node(
+        package=package_name,
+        executable="laser_remapper_node",
+    )
 
     # joint_broad_spawner = Node(
     #     package="controller_manager",
@@ -56,6 +56,7 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
+        laser_remapper
         # diff_drive_spawner,
         # joint_broad_spawner
     ])

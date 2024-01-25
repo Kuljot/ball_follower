@@ -6,22 +6,32 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 # find dependencies
-find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
-add_executable(bot_node src/bot_node.cpp)
-target_include_directories(bot_node PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
-target_compile_features(bot_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+# add_executable(bot_node src/bot_node.cpp)
+add_executable(laser_remapper_node src/laser_remapper.cpp)
 
-install(TARGETS bot_node
-  DESTINATION lib/${PROJECT_NAME})
+# target_include_directories(bot_node PUBLIC
+#   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+#   $<INSTALL_INTERFACE:include>)
+ament_target_dependencies(laser_remapper_node rclcpp sensor_msgs)
+target_compile_features(laser_remapper_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
+install(TARGETS
+  laser_remapper_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
+  find_package(rclcpp REQUIRED)
+  find_package(sensor_msgs REQUIRED)
   # the following line skips the linter which checks for copyrights
   # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)

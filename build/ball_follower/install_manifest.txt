@@ -1,5 +1,6 @@
-/home/kuljot/Project/ball_follower/install/ball_follower/lib/ball_follower/bot_node
+/home/kuljot/Project/ball_follower/install/ball_follower/lib/ball_follower/laser_remapper_node
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/config/gazebo_params.yaml
+/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/config/default.rviz
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/config/mapper_params_online_async.yaml
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/lidar.xacro
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/robot_core.xacro
@@ -8,6 +9,7 @@
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/visual_macros.xacro
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/camera.xacro
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/description/robot.urdf.xacro
+/home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch/slam.launch.py
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch/launch_sim.launch.py
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/launch/rsp.launch.py
 /home/kuljot/Project/ball_follower/install/ball_follower/share/ball_follower/worlds/cone

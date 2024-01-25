@@ -198,41 +198,41 @@ ball_follower_uninstall/fast:
 .PHONY : ball_follower_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named bot_node
+# Target rules for targets named laser_remapper_node
 
 # Build rule for target.
-bot_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bot_node
-.PHONY : bot_node
+laser_remapper_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laser_remapper_node
+.PHONY : laser_remapper_node
 
 # fast build rule for target.
-bot_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_node.dir/build.make CMakeFiles/bot_node.dir/build
-.PHONY : bot_node/fast
+laser_remapper_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/build
+.PHONY : laser_remapper_node/fast
 
-src/bot_node.o: src/bot_node.cpp.o
-.PHONY : src/bot_node.o
+src/laser_remapper.o: src/laser_remapper.cpp.o
+.PHONY : src/laser_remapper.o
 
 # target to build an object file
-src/bot_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_node.dir/build.make CMakeFiles/bot_node.dir/src/bot_node.cpp.o
-.PHONY : src/bot_node.cpp.o
+src/laser_remapper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/src/laser_remapper.cpp.o
+.PHONY : src/laser_remapper.cpp.o
 
-src/bot_node.i: src/bot_node.cpp.i
-.PHONY : src/bot_node.i
+src/laser_remapper.i: src/laser_remapper.cpp.i
+.PHONY : src/laser_remapper.i
 
 # target to preprocess a source file
-src/bot_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_node.dir/build.make CMakeFiles/bot_node.dir/src/bot_node.cpp.i
-.PHONY : src/bot_node.cpp.i
+src/laser_remapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/src/laser_remapper.cpp.i
+.PHONY : src/laser_remapper.cpp.i
 
-src/bot_node.s: src/bot_node.cpp.s
-.PHONY : src/bot_node.s
+src/laser_remapper.s: src/laser_remapper.cpp.s
+.PHONY : src/laser_remapper.s
 
 # target to generate assembly for a file
-src/bot_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_node.dir/build.make CMakeFiles/bot_node.dir/src/bot_node.cpp.s
-.PHONY : src/bot_node.cpp.s
+src/laser_remapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/src/laser_remapper.cpp.s
+.PHONY : src/laser_remapper.cpp.s
 
 # Help Target
 help:
@@ -249,10 +249,10 @@ help:
 	@echo "... test"
 	@echo "... ball_follower_uninstall"
 	@echo "... uninstall"
-	@echo "... bot_node"
-	@echo "... src/bot_node.o"
-	@echo "... src/bot_node.i"
-	@echo "... src/bot_node.s"
+	@echo "... laser_remapper_node"
+	@echo "... src/laser_remapper.o"
+	@echo "... src/laser_remapper.i"
+	@echo "... src/laser_remapper.s"
 .PHONY : help
 
 
