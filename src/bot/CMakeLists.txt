@@ -12,18 +12,22 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
-
+find_package(nav_msgs REQUIRED)
 # add_executable(bot_node src/bot_node.cpp)
 add_executable(laser_remapper_node src/laser_remapper.cpp)
+add_executable(map_publisher_node src/map_publisher.cpp)
 
 # target_include_directories(bot_node PUBLIC
 #   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 #   $<INSTALL_INTERFACE:include>)
 ament_target_dependencies(laser_remapper_node rclcpp sensor_msgs)
+ament_target_dependencies(map_publisher_node rclcpp nav_msgs)
+
 target_compile_features(laser_remapper_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 install(TARGETS
   laser_remapper_node
+  map_publisher_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -32,6 +36,8 @@ if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   find_package(rclcpp REQUIRED)
   find_package(sensor_msgs REQUIRED)
+  find_package(nav_msgs REQUIRED)
+
   # the following line skips the linter which checks for copyrights
   # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
@@ -45,7 +51,7 @@ endif()
 #Added C++ Launch 
 install(
   # Which folders to copy from src to install
-  DIRECTORY config description launch worlds
+  DIRECTORY config description launch worlds maps
   # Destination install/share
   DESTINATION share/${PROJECT_NAME}
 )

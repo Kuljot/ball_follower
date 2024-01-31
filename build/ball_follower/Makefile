@@ -210,6 +210,19 @@ laser_remapper_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/build
 .PHONY : laser_remapper_node/fast
 
+#=============================================================================
+# Target rules for targets named map_publisher_node
+
+# Build rule for target.
+map_publisher_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map_publisher_node
+.PHONY : map_publisher_node
+
+# fast build rule for target.
+map_publisher_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/build
+.PHONY : map_publisher_node/fast
+
 src/laser_remapper.o: src/laser_remapper.cpp.o
 .PHONY : src/laser_remapper.o
 
@@ -234,6 +247,30 @@ src/laser_remapper.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/src/laser_remapper.cpp.s
 .PHONY : src/laser_remapper.cpp.s
 
+src/map_publisher.o: src/map_publisher.cpp.o
+.PHONY : src/map_publisher.o
+
+# target to build an object file
+src/map_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/src/map_publisher.cpp.o
+.PHONY : src/map_publisher.cpp.o
+
+src/map_publisher.i: src/map_publisher.cpp.i
+.PHONY : src/map_publisher.i
+
+# target to preprocess a source file
+src/map_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/src/map_publisher.cpp.i
+.PHONY : src/map_publisher.cpp.i
+
+src/map_publisher.s: src/map_publisher.cpp.s
+.PHONY : src/map_publisher.s
+
+# target to generate assembly for a file
+src/map_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/src/map_publisher.cpp.s
+.PHONY : src/map_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... ball_follower_uninstall"
 	@echo "... uninstall"
 	@echo "... laser_remapper_node"
+	@echo "... map_publisher_node"
 	@echo "... src/laser_remapper.o"
 	@echo "... src/laser_remapper.i"
 	@echo "... src/laser_remapper.s"
+	@echo "... src/map_publisher.o"
+	@echo "... src/map_publisher.i"
+	@echo "... src/map_publisher.s"
 .PHONY : help
 
 
