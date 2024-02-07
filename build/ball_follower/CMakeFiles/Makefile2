@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/kuljot/Project/ball_follower/build/ball_follower
 # The main recursive "all" target.
 all: CMakeFiles/laser_remapper_node.dir/all
 all: CMakeFiles/map_publisher_node.dir/all
+all: CMakeFiles/autonomy_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/ball_follower_uninstall.dir/clean
 clean: CMakeFiles/laser_remapper_node.dir/clean
 clean: CMakeFiles/map_publisher_node.dir/clean
+clean: CMakeFiles/autonomy_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/ball_follower_uninstall.dir/clean:
 CMakeFiles/laser_remapper_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_remapper_node.dir/build.make CMakeFiles/laser_remapper_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles --progress-num=1,2 "Built target laser_remapper_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles --progress-num=4,5 "Built target laser_remapper_node"
 .PHONY : CMakeFiles/laser_remapper_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/laser_remapper_node.dir/clean:
 CMakeFiles/map_publisher_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles --progress-num=3,4 "Built target map_publisher_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles --progress-num=6,7 "Built target map_publisher_node"
 .PHONY : CMakeFiles/map_publisher_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ map_publisher_node: CMakeFiles/map_publisher_node.dir/rule
 CMakeFiles/map_publisher_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/clean
 .PHONY : CMakeFiles/map_publisher_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/autonomy_node.dir
+
+# All Build rule for target.
+CMakeFiles/autonomy_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles --progress-num=1,2,3 "Built target autonomy_node"
+.PHONY : CMakeFiles/autonomy_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/autonomy_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/autonomy_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles 0
+.PHONY : CMakeFiles/autonomy_node.dir/rule
+
+# Convenience name for target.
+autonomy_node: CMakeFiles/autonomy_node.dir/rule
+.PHONY : autonomy_node
+
+# clean rule for target.
+CMakeFiles/autonomy_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/clean
+.PHONY : CMakeFiles/autonomy_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

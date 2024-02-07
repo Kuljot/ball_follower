@@ -2,6 +2,7 @@
 /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/ball_follower_uninstall.dir
 /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/laser_remapper_node.dir
 /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/map_publisher_node.dir
+/home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/autonomy_node.dir
 /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/test.dir
 /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/edit_cache.dir
 /home/kuljot/Project/ball_follower/build/ball_follower/CMakeFiles/rebuild_cache.dir

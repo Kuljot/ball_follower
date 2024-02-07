@@ -1,2 +1,1 @@
-source;share/ball_follower/environment/ament_prefix_path.sh
-source;share/ball_follower/environment/path.sh
+/home/kuljot/Project/ball_follower/build/ball_follower/ament_cmake_environment_hooks/local_setup.dsv

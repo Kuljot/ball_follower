@@ -223,6 +223,43 @@ map_publisher_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/build
 .PHONY : map_publisher_node/fast
 
+#=============================================================================
+# Target rules for targets named autonomy_node
+
+# Build rule for target.
+autonomy_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 autonomy_node
+.PHONY : autonomy_node
+
+# fast build rule for target.
+autonomy_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/build
+.PHONY : autonomy_node/fast
+
+src/autonomy_node.o: src/autonomy_node.cpp.o
+.PHONY : src/autonomy_node.o
+
+# target to build an object file
+src/autonomy_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o
+.PHONY : src/autonomy_node.cpp.o
+
+src/autonomy_node.i: src/autonomy_node.cpp.i
+.PHONY : src/autonomy_node.i
+
+# target to preprocess a source file
+src/autonomy_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.i
+.PHONY : src/autonomy_node.cpp.i
+
+src/autonomy_node.s: src/autonomy_node.cpp.s
+.PHONY : src/autonomy_node.s
+
+# target to generate assembly for a file
+src/autonomy_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.s
+.PHONY : src/autonomy_node.cpp.s
+
 src/laser_remapper.o: src/laser_remapper.cpp.o
 .PHONY : src/laser_remapper.o
 
@@ -271,6 +308,30 @@ src/map_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_publisher_node.dir/build.make CMakeFiles/map_publisher_node.dir/src/map_publisher.cpp.s
 .PHONY : src/map_publisher.cpp.s
 
+src/navigation_behaviors.o: src/navigation_behaviors.cpp.o
+.PHONY : src/navigation_behaviors.o
+
+# target to build an object file
+src/navigation_behaviors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o
+.PHONY : src/navigation_behaviors.cpp.o
+
+src/navigation_behaviors.i: src/navigation_behaviors.cpp.i
+.PHONY : src/navigation_behaviors.i
+
+# target to preprocess a source file
+src/navigation_behaviors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.i
+.PHONY : src/navigation_behaviors.cpp.i
+
+src/navigation_behaviors.s: src/navigation_behaviors.cpp.s
+.PHONY : src/navigation_behaviors.s
+
+# target to generate assembly for a file
+src/navigation_behaviors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomy_node.dir/build.make CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.s
+.PHONY : src/navigation_behaviors.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +347,21 @@ help:
 	@echo "... test"
 	@echo "... ball_follower_uninstall"
 	@echo "... uninstall"
+	@echo "... autonomy_node"
 	@echo "... laser_remapper_node"
 	@echo "... map_publisher_node"
+	@echo "... src/autonomy_node.o"
+	@echo "... src/autonomy_node.i"
+	@echo "... src/autonomy_node.s"
 	@echo "... src/laser_remapper.o"
 	@echo "... src/laser_remapper.i"
 	@echo "... src/laser_remapper.s"
 	@echo "... src/map_publisher.o"
 	@echo "... src/map_publisher.i"
 	@echo "... src/map_publisher.s"
+	@echo "... src/navigation_behaviors.o"
+	@echo "... src/navigation_behaviors.i"
+	@echo "... src/navigation_behaviors.s"
 .PHONY : help
 
 

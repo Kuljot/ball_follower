@@ -1,3 +1,1 @@
-gazebo:
-  ros__parameters:
-    publish_rate: 400.0
+/home/kuljot/Project/ball_follower/src/bot/config/gazebo_params.yaml

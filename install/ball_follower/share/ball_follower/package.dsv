@@ -1,8 +1,1 @@
-source;share/ball_follower/hook/cmake_prefix_path.ps1
-source;share/ball_follower/hook/cmake_prefix_path.dsv
-source;share/ball_follower/hook/cmake_prefix_path.sh
-source;share/ball_follower/local_setup.bash
-source;share/ball_follower/local_setup.dsv
-source;share/ball_follower/local_setup.ps1
-source;share/ball_follower/local_setup.sh
-source;share/ball_follower/local_setup.zsh
+/home/kuljot/Project/ball_follower/build/ball_follower/ament_cmake_environment_hooks/package.dsv
